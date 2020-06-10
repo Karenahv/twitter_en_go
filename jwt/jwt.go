@@ -9,7 +9,7 @@ import (
 
 /*GeneroJWT genera el encriptado con JWT */
 func GeneroJWT(t models.Usuario) (string, error) {
-	miClave := []byte("1234qwas")
+	miClave := []byte("MasterdelDesarrollo_grupodeFacebook")
 	payload := jwt.MapClaims{
 		"email":            t.Email,
 		"nombre":           t.Nombre,
