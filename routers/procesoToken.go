@@ -6,10 +6,13 @@ import (
 
 	"github.com/Karenahv/twitter_en_go/bd"
 	"github.com/Karenahv/twitter_en_go/models"
-	"github.com/dgrijalva/jwt-go"
+	jwt "github.com/dgrijalva/jwt-go"
 )
 
+/*Email del usuario*/
 var Email string
+
+/*IDUsuario del usuario*/
 var IDUsuario string
 
 /*ProcesoToken proceso token para extraer sus valores */

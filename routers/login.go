@@ -10,7 +10,7 @@ import (
 	"github.com/Karenahv/twitter_en_go/models"
 )
 
-/* Login realiza el login del usuario si existe en la bd*/
+/*Login realiza el login del usuario si existe en la bd*/
 func Login(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("content-type", "application/json")
 
